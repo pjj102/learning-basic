@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdio>
 
 int main() {
 
@@ -31,6 +32,10 @@ int main() {
 
     std::cout << "*********************************************";
 
+    std::cin.ignore();
+    std::cin.get();
+
 
     return 0;
+
 }
